@@ -29,7 +29,7 @@ The following Python libraries were used:
 ### SystemML (LinearRegression):
 SystemML framework demonstration on Watson Studio with Spark. No features were dropped and no feature scaling was applied.
 
-| | Algorithm | score |
+| | Algorithm | R2 score |
 |---|---|---|
 | 1 | LinearRegression | 0.704 |
 
@@ -44,7 +44,7 @@ run with a CrossValidation ("CV") that used multiple folds. The optimal CVfold n
 found with loops. The CV scores were determined by taking the arithmetic mean of all CV runs.The best scoring run was re-run
 and the predicted Permeability values graphically compared with the actual Permeability.
 
-| |Algorithm |	mean_score |
+| |Algorithm |	R2 mean_score |
 |---|---|---|
 | 1 |	Support Vector Regression |	0.525 |
 | 2 |	Decision Tree Regressor |	0.428 |
