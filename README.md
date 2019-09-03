@@ -12,7 +12,7 @@ Spark servers. Keras CPU training is not recommendable, since it can be very slo
 Regression model was run on SystemML and Apache Spark in a separate notebook.
 - An ETL notebook was created (ETL.ipynb) at start of the project and some initial dataset exploration. More detailed analyses are presented in the main file.
 - A MS Power Point presentation with a brief summary is part of this project. 
-- A Youtube video about the analysis can be seen here: https://www.youtube.com/XYZ
+- A Youtube video about the analysis can be seen here: https://youtu.be/KxkD8paGVYs
 
 The following Python libraries were used:
 1. NumPy (scientific data manipulation)
