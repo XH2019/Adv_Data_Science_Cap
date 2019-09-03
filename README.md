@@ -4,13 +4,15 @@
 For a description of the data set used for this project, please read the introduction in the main file "BP_Reservoir_Permeability_WatsonStudio.ipynb"
 
 For the project the following applications were used:
-Processing in IBM Watson Studio Jupyter (Python 3) notebooks and on my home PC with 
-the Anaconda JupyterLab (Python 3) notebooks. The Machine Learning algorithms provided by SciKit-Learn are computed in-memory on Watson Studio are
+Processing in IBM Watson Studio Jupyter Notebook (Python 3) and on my home PC with 
+the Anaconda JupyterLab Notebook (Python 3). The Machine Learning algorithms provided by SciKit-Learn are computed in-memory on Watson Studio are
 quick enough on the 1 CPU instance provided with the free tier IBM Cloud. 
 A simple Neural Network was trtrained on Keras on GPU and could also be trained on Apache 
 Spark servers. Keras CPU training is not recommendable, since it can be very slow even with multiple CPU cores. A Linear 
 Regression model was run on SystemML and Apache Spark in a separate notebook.
+- An Architectural Design Document (ADD) outlining project decisions.
 - An ETL notebook was created (ETL.ipynb) at start of the project and some initial dataset exploration. More detailed analyses are presented in the main file.
+- A SystemML notebook
 - A MS Power Point presentation with a brief summary is part of this project. 
 - A Youtube video about the analysis can be seen here: https://youtu.be/KxkD8paGVYs
 
